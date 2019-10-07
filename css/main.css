@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font-family: "Bevan", sans-serif;
   line-height: 1.5;
 }
 
@@ -9,7 +8,7 @@ html {
   box-sizing: inherit;
 }
 
-.nav {
+header {
   background-color: #79756f;
   color: #fff;
   text-align: center;
@@ -19,7 +18,11 @@ html {
   border-bottom: 5px solid #595652;
 }
 
-.nav li {
+header h1{
+  font-family: "Bevan", sans-serif;
+}
+
+header ul li {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.1rem;
   list-style-type: none;
@@ -30,12 +33,12 @@ html {
   border-radius: 5px;
 }
 
-.nav li a {
+header ul li a {
   color: #fff;
   text-decoration: none;
 }
 
-.nav li:hover {
+header ul li:hover {
   color: #fff;
   text-decoration: none;
   background-color: #f33;
